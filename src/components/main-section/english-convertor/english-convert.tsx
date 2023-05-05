@@ -49,7 +49,7 @@ export default function EnglishConvertComponent() {
       {
         headers: {
           "Content-Type": "application/json",
-          Authorization: `Bearer ${"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"}`,
+          Authorization: `Bearer ${environment.Api_Key}`,
         },
       }
     );

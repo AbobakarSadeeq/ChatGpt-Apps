@@ -11,7 +11,7 @@ export default function EnglishConvertComponent() {
 
   const [userPromptAndAnswer, setUserPromptAndAnswer] = useState<string[]>(
     () => {
-      return []; 
+      return [];
     }
   );
   const [disabledInputs, setDisabledInputs] = useState<boolean>(false);
